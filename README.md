@@ -8,6 +8,7 @@ This is a simple and interactive Book Recommendation System built using Python, 
 ## 🚀 Features
 
 -View a curated list of the top 50 most popular books
+
 -Get personalized book recommendations using collaborative filtering
 
 Lightweight web interface using Flask and basic HTML templates
@@ -21,7 +22,8 @@ Lightweight web interface using Flask and basic HTML templates
 ├── README.md           # Project documentation
 
 ```
-Recommendation Logic
+### Recommendation Logic
+
 Popularity-Based: Books are ranked based on the number of ratings and average rating. The top 50 books are displayed to all users.
 
 Collaborative Filtering: Personalized recommendations are generated based on user similarity and past ratings using a collaborative filtering model.
